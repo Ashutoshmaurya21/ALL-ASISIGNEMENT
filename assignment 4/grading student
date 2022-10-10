@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n,m,i,p;
+    cin>>n;
+    for(i=0;i<n;i++)
+    {
+        cin>>m;
+        if(38>m){
+            cout<<m<<endl;}
+            else{
+            p=(m/5+1)*5;
+            if(p-m<3){
+                cout<<p<<endl;}
+                else
+                {
+                    cout<<m<<endl;
+                }
+            }
+            }
+            return 0;
+        }
+    
+
+
+    
+    
