@@ -12,7 +12,7 @@ int main() {
     cin >> k;
     
     int i = 0, j = 0;
-    for (; i < (int)s.size() && j < (int)t.size(); ++i,++j) {
+    for ( i < (int)s.size() && j < (int)t.size(); ++i,++j) {
         if (s[i] != t[j])
             break;
     }
