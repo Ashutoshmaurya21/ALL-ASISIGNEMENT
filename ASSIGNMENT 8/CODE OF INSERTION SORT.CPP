@@ -14,6 +14,7 @@ void printVector(vector<int>A)
 //the vector A will be sorted inplace and that's why passed with refrence
 void sort(vector<int>&A)
 {
+	sort(A.begin(),A.end());
 	//write the code for insertion sort
 }
  
